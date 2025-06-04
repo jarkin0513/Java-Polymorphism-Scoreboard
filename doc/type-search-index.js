@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Baseball"},{"p":"<Unnamed>","l":"Football"},{"p":"<Unnamed>","l":"Hockey"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"ScoringMethod"},{"p":"<Unnamed>","l":"Soccer"},{"p":"<Unnamed>","l":"Sport"},{"p":"<Unnamed>","l":"Team"}];updateSearchResults();
