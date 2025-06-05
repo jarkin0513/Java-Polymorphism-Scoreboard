@@ -1,3 +1,7 @@
+# Sports Scoreboard System
+
+A Java application demonstrating object-oriented programming and polymorphism by simulating scoreboards for various sports including Football, Baseball, Soccer, and Hockey.
+
 ## Problem Statement
 The goal of this problem is to design a software scoreboard system that can handle a variety of sports such as Soccer, Baseball, Hockey, and Football. The program will employ polymorphism to create a flexible and extensible architecture that can adapt to the unique rules of each sport.
 
