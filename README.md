@@ -7,6 +7,15 @@ The goal of this problem is to design a software scoreboard system that can hand
 
 > **Note**: This project was originally part of a private GitLab repository and has been migrated to GitHub as an independent repository. As a result, the commit history starts from the migration point.
 
+## Concepts Demonstrated
+- Object-Oriented Programming (OOP)
+- Inheritance and Polymorphism
+- Abstraction
+- Composition
+- Input Validation
+- Command-line Interaction
+- Modular Class Design
+
 ## Developer Documentation
 The program is organized using a class hierarchy that includes the base class, 'Sport' and subclasses for each sport. This allows for a common interface while still complying to the unique kinds of scoring methods / period lengths for each sport. The 'ScoringMethod' and 'Team' classes were designed to encapsulate scoring methods and team information, respectively. This was done to enhance code readability and modularity. The user interacts with the program through a command-line interface. This was done for simplicity when handling user interaction. A menu driven approach was chosen for the user input. The program displays menus for game selection, scoring options, and team choices. I set up the menu to be like how it is in order for the user to easily navigate and choose their desired option. I tried making it look compact and simple in order for ease of use. I implemented a somewhat basic input validation with this program. I wanted to ensure numeric choices for the game and scoring selection. Non-numeric or invalid choices prompt the user to try again. Something I would change if I had more time would be how the team name selection works. Currently, if you do a name that has 2 words, it trims off the second word and the team name is just whatever the first word was. I think it would make sense for a user to be able to include the team's city or school when they select the teams they want to play with. <br>
 The program dynamically creates game instances based on user input allowing for flexibility for the different sports. The user is then prompted to enter their team names. The period lengths and scoring methods are able to be changed within sport class which allows for easy adaptation for sports with different scoring methods and periods. The program was chosen to feature an interactive loop for scoring games. Users can input scores for various scoring methods until the game is over. The 'ScoringMethod' class holds the information regarding each scoring method and the program determines the right scoring method based on user input. Polymorphism is employed with this class to allow for the game-specific implementations of each sport while maintaining a consistent method interface. The specific scoring method for each sport is established within each of the different sports subclasses.<br>
